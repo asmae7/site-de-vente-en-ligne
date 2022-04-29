@@ -52,7 +52,7 @@ if (isset($_POST['add_to_cart'])) {
 
    <div class="heading">
       <h3>rechercher</h3>
-      <p> <a href="home.php">acceuil</a> / rechercher </p>
+      <p> <a href="home.php">accueil</a> / rechercher </p>
    </div>
 
    <section class="search-form">

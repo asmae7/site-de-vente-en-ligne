@@ -30,6 +30,13 @@ if (isset($_POST['add_to_cart'])) {
         $message[] = 'ajouté au panier!';
     }
 }
+if(isset($_POST['pdf'])){
+setcookie("nom",$_POST["product_name"],time()+3600);
+setcookie("image", $_POST["product_image"],time()+3600);
+setcookie("prix", $_POST["product_price"],time()+3600);
+header("location:pdf.php");
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -48,9 +55,9 @@ if (isset($_POST['add_to_cart'])) {
 
 <body>
     <?php include 'header.php'; ?>
-
+    
     <div class="heading">
-        <p> <a href="home.php">acceuil</a> / Article</p>
+        <p> <a href="home.php">accueil</a> / Article</p>
         <h1 class="title"><?php echo $product_name; ?></h1>
 
     </div>
@@ -67,6 +74,7 @@ if (isset($_POST['add_to_cart'])) {
                     <input type="hidden" name="product_price" value="<?php echo $product_price; ?>">
                     <input type="hidden" name="product_image" value="<?php echo $product_image; ?>">
                     <input type="submit" value="ajouter au panier" name="add_to_cart" class="btn">
+                    <input type="submit" value=" Telecharger PDF" name="pdf" class="btn">
                 </form>
             </div>
         </div>

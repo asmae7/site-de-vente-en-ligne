@@ -72,8 +72,8 @@ if (isset($_POST['order_btn'])) {
    <?php include 'header.php'; ?>
 
    <div class="heading">
-      <h3>checkout</h3>
-      <p> <a href="home.php">acceuil</a> / commander </p>
+      <h3>commander!</h3>
+      <p> <a href="home.php">accueil</a> / commander </p>
    </div>
 
    <section class="display-order">

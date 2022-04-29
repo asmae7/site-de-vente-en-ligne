@@ -36,7 +36,7 @@ if (!isset($admin_id)) {
 
    <section class="dashboard">
 
-   <h1 class="title">table de bord</h1>
+   <h1 class="title">tableau de bord</h1>
 
    <div class="box-container">
 

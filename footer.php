@@ -4,7 +4,7 @@
 
       <div class="box">
          <h3>liens rapides</h3>
-         <a href="home.php">acceuil</a>
+         <a href="home.php">accueil</a>
          <a href="about.php">savoir plus</a>
          <a href="shop.php">market</a>
          <a href="contact.php">contact</a>
@@ -36,6 +36,6 @@
 
    </div>
 
-   <p class="credit"> &copy; copyright  @ <?php echo date('Y'); ?> <span></span> </p>
+   <p class="credit"> &copy; LST GI   @ <?php echo date('Y'); ?> <span></span> </p>
 
 </section>

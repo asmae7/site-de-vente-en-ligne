@@ -51,7 +51,7 @@ if(isset($_GET['delete_all'])){
 
 <div class="heading">
    <h3>votre panier</h3>
-   <p> <a href="home.php">acceuil</a> / panier </p>
+   <p> <a href="home.php">accueil</a> / panier </p>
 </div>
 
 <section class="shopping-cart">
